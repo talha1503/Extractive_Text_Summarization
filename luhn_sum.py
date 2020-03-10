@@ -57,7 +57,7 @@ def get_score(content,frequency_dictionary):
 			if word not in set(stopwords.words('english')).union({',','.',';','%',')','(','``'}) and word in frequency_dictionary.keys():
 				index_list.append(word_list.index(word))
 		if index_list:
-			score = (max(index_list) - min(index_list))**2/len(index_list)
+			score = len(index_list)**2/(max(index_list) - min(index_list))
 		sentence_score[content.index(sentence)] = score
 	return sentence_score
 
