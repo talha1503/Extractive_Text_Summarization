@@ -6,12 +6,6 @@ Various  unsupervised algorithms for Extractive Summarization. <br />
 * [Luhns Summarization](luhn_sum.py)  <br />
 
 
-## Built With
-
-* [nltk](https://www.nltk.org/)
-* [numpy](https://numpy.org/)
-* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (Used for scraping input data)
-
 ## Sample Results
 
 ###  **Document :**
@@ -33,6 +27,12 @@ Various  unsupervised algorithms for Extractive Summarization. <br />
 
 #### Luhn's Summarization:
 	The company will provide AI development tools and Azure AI services such as Microsoft Cognitive Services, Bot Services and Azure Machine Learning.According to Manish Prakash, Country General Manager-PS, Health and Education, Microsoft India, said, 'With AI being the defining technology of our time, it is transforming lives and industry and the jobs of tomorrow will require a different skillset. Envisioned as a three-year collaborative program, Intelligent Cloud Hub will support around 100 institutions with AI infrastructure, course content and curriculum, developer support, development tools and give students access to cloud and AI services. The program was developed to provide job ready skills to programmers who wanted to hone their skills in AI and data science with a series of online courses which featured hands-on labs and expert instructors as well. As part of the program, the Redmond giant which wants to expand its reach and is planning to build a strong developer ecosystem in India with the program will set up the core AI infrastructure and IoT Hub for the selected campuses. 
+
+
+## Built With
+
+* [nltk](https://www.nltk.org/)
+* [numpy](https://numpy.org/)
 
 
 ## Acknowledgments
