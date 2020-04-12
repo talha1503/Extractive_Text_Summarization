@@ -1,6 +1,6 @@
 # Extractive Text Summarization
 
-Various  unsupervised algorithms for Extractive Summarization. <br />
+ Tried out these algorithms for Extractive Summarization. <br />
 * [TextRank](Text_Rank_.ipynb)  <br />
 * [SumBasic](SumBasic.ipynb) <br />
 * [Luhns Summarization](luhn_sum.py)  <br />
