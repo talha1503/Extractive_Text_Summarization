@@ -64,7 +64,7 @@ def get_score(content,frequency_dictionary):
 
 def get_summary(sentence_scores,content,threshold):
 	summary = ""
-	sentence_indexes = sorted(sentence_scores,key=sentence_scores.get,reverse=True)[:threshold]
+	sentence_indexes = sorted(sentence_scores,key=sentence_scores.get,reverse=True)[:threshold-1]
 	for index in sentence_indexes:
 		summary+=content[index]+" " 
 	return summary
